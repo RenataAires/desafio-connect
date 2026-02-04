@@ -1,0 +1,52 @@
+.navBar {
+  background-color: #205691;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .ul {
+    border: solid red;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  img {
+    height: 10vh;
+    border: solid red;
+  }
+
+  a {
+    color: #ffffff;
+  }
+
+  .imgPerfil {
+    height: 10vh;
+    width: 8vw;
+    border-radius: 100%;
+    border: solid #00aaff 5px;
+  }
+}
+
+//---------------------RESPONSIVO------------------
+
+@media (min-width: 201px) and (max-width: 500px) {
+  .navBar {
+    height: 10vh;
+
+    a {
+      color: #ffffff;  
+      font-size: 0.85rem;
+    }
+
+    .logo{
+        width: 15vw;
+    }
+
+    .imgPerfil{
+        height: 8vh;
+        width: 4vw;
+    }
+  }
+}
