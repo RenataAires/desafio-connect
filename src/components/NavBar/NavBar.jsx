@@ -1,48 +1,52 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 // Importando todos os componentes para serem usaddos nas rotas
 import Inicio from "../Inicio/Inicio";
 import Acoes from "../AcoesDaConnect/AcoesDaConnect";
-
+import QuemSomos from "../QuemSomos/QuemSomos";
+import Perfil from "../Perfil/Perfil";
 import Logo from "../../assets/logo.png";
-import FotoDoPerfil from "../../assets/foto-perfil.png";
+import FotoDoPerfil from "../../assets/FotoDePerfil.png";
 
-importstyles from "./NavBar.module.scss";
+import styles from "./NavBar.module.scss";
 
 function NavBar() {
   return (
     <BrowserRouter>
       <nav className={styles.navBar}>
-        <link to="/">
-          <img src={Logo} alt="Logo" />
-        </link>
+        <Link to="/">
+          <img className={styles.logo} src={Logo} alt="Logo" />
+        </Link>
 
         <ul>
           <li>
-            {" "}
-            <link to="/">Início</link>
+            <Link to="/">Início</Link>
           </li>
 
           <li>
             {" "}
-            <link to="/acoes">Ações da Connect</link>
+            <Link to="/acoes">Ações da Connect</Link>
           </li>
 
           <li>
-            <link to="/quemsomos">Quem Somos</link>
+            <Link to="/quemsomos">Quem Somos</Link>
           </li>
         </ul>
 
-        <link to="/perfil">
-          <img className={styles.imgPerfil} src={FotoDoPerfil} alt="Foto do Perfil" />
-        </link>
+        <Link to="/perfil">
+          <img
+            className={styles.imgPerfil}
+            src={FotoDoPerfil}
+            alt="Foto do Perfil"
+          />
+        </Link>
       </nav>
 
       <Routes>
-        <Route element={<Inicio />} />
-        <Route element={<Acoes />} />
-        <Route element={<QuemSomos />} />
-        <Route element={<Perfil />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="/acoes" element={<Acoes />} />
+        <Route path="/quemsomos" element={<QuemSomos />} />
+        <Route path="/perfil" element={<Perfil />} />
       </Routes>
     </BrowserRouter>
   );
