@@ -1,0 +1,62 @@
+.containerDeacoes {
+    background-color: red;
+}
+
+.boxTituloAcoes {
+    border: solid green;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 3rem;
+    color: #205691;
+}
+
+p{
+    font-size: 1.5rem;
+    border: solid orange;
+    width: 30%;
+    text-align: center;
+}
+
+.containerCardsDeAcoes {
+    border: solid blue;
+    background-color: pink;
+    flex-wrap: wrap;
+}
+
+.cardsDeAcoes{
+    border: solid;
+    width: 26%;
+    height: 35vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+img{
+    height: 15vh;
+}    
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    border: solid red;
+    width: 70%;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #205691;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+}
