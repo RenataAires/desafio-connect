@@ -1,7 +1,6 @@
 .containerTelaPerfil {
-  background-color: aquamarine;
+  height: 85vh;
   display: flex;
-  height: 80vh;
   justify-content: center;
   align-items: center;
 
@@ -15,21 +14,26 @@
 
     img {
       border-radius: 100%;
-      height: 20vh;
-      width: 30%;
+      height: 30vh;
+      width: 23%;
       border: solid #00aaff;
     }
   }
 }
 
 .cardInfo {
-  border: solid rgb(4, 45, 134);
+  //border: solid rgb(4, 45, 134);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  border: solid blue;
-  width: 50%;
+  //border: solid blue;
+  width: 80%;
+  height: 30vh;
+
+  h3 {
+    color: #278733;
+  }
 
   .paragrafoSobreMim {
     text-align: center;
@@ -37,19 +41,26 @@
 }
 
 address {
-  display: solid green;
+  //border: solid red;
+  display: flex;
+  justify-content: space-evenly;
   width: 90%;
+  
+  p{
+font-size: 0.8rem;
+  }
 }
 
 .listaInteresses {
-  border: solid greenyellow;
+  //border: solid greenyellow;
   display: flex;
   width: 80%;
   justify-content: space-evenly;
 
   li {
     background-color: #d4e7d6;
-    padding: 1rem;
+    padding: 0.5rem;
     color: #278733;
+    border-radius: 10px;
   }
 }

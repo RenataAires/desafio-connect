@@ -1,9 +1,11 @@
 import styles from "./QuemSomos.module.scss";
+
 function QuemSomos() {
   return (
     <section className={styles.containerQuemSomos}>
       <div className={styles.boxTextosQuemSomos}>
         <h2>Como a Connect atua em projetos sociais</h2>
+
         <p>
           A Connect é uma iniciativa que conecta empresas, pessoas e
           organizações sociais com um propósito em comum: gerar impacto positivo
@@ -26,4 +28,5 @@ function QuemSomos() {
     </section>
   );
 }
+
 export default QuemSomos;

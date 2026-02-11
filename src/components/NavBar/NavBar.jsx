@@ -5,6 +5,7 @@ import Inicio from "../Inicio/Inicio";
 import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
+
 import Logo from "../../assets/logo.png";
 import FotoDoPerfil from "../../assets/FotoDePerfil.png";
 

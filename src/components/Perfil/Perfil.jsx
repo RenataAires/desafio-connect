@@ -1,6 +1,5 @@
-import React from "react";
 import styles from "./Perfil.module.scss";
-import ImgPerfil from "../../assets/FotoDePerfil.png"
+import ImgPerfil from "../../assets/FotoDePerfil.png";
 
 function Perfil() {
   return (
@@ -10,7 +9,8 @@ function Perfil() {
 
         <div className={styles.cardInfo}>
           <h2>Renata Aires</h2>
-          <h3>Desenvolvedora Front-end</h3>
+          <h3>Voluntária ativa</h3>
+
           <p className={styles.paragrafoSobreMim}>
             Profissional com experiência em desenvolvimento web e design
             responsivo.
@@ -19,15 +19,16 @@ function Perfil() {
           <address>
             <p>Goiânia, Goiás</p>
             <p>renataaires8332@gmail.com</p>
+            <p>Membro desde janeiro de 2022</p>
           </address>
-        </div>
 
-        <ul className={styles.listaInteresses}>
-          <li>Educação</li>
-          <li>Experiência</li>
-          <li>Habilidades</li>
-          <li>Projetos</li>
-        </ul>
+          <ul className={styles.listaInteresses}>
+            <li>Educação</li>
+            <li>Experiência</li>
+            <li>Habilidades</li>
+            <li>Projetos</li>
+          </ul>
+        </div>
       </article>
     </section>
   );

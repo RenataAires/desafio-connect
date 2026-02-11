@@ -1,62 +1,66 @@
-.containerDeacoes {
-    background-color: red;
+.containerDeAcoes {
+
 }
 
 .boxTituloAcoes {
-    border: solid green;
-    height: 25vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
+  //border: solid green;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
-h2{
+  h2 {
     font-size: 3rem;
     color: #205691;
-}
+  }
 
-p{
+  p {
     font-size: 1.5rem;
-    border: solid orange;
-    width: 30%;
+    //border: solid orange;
+    width: 50%;
     text-align: center;
+  }
 }
 
 .containerCardsDeAcoes {
-    border: solid blue;
-    background-color: pink;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.cardsDeAcoes{
-    border: solid;
-    width: 26%;
-    height: 35vh;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.cardsDeAcoes {
+  //border: solid;
+  width: 26%;
+  height: 35vh;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
-img{
+  img {
     height: 15vh;
-}    
+  }
 
-p{
+  h2 {
+    color: #122f97;
+  }
+
+  p {
     font-size: 1rem;
     text-align: center;
-    border: solid red;
+    //border: solid red;
     width: 70%;
-}
+  }
 
-button{
+  button {
     padding: 0.5rem 1rem;
     color: white;
     background-color: #205691;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-}
+  }
 }
